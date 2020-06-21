@@ -1,0 +1,60 @@
+body{
+	background-color: lightgrey;
+}
+h1{
+	display: inline-block;
+	margin: 1%;
+	clear:both;
+	background-color:aliceblue;
+}
+figure{
+	display: inline-block;
+	float: right;
+
+}
+#intro{
+	color: aliceblue;
+	margin-left:1%;
+	margin-bottom: 1%;
+	padding: 1px;
+}
+header{
+	background-color: darkgrey;
+	border: 1px solid grey;
+	display : block;
+	height:150px;
+}
+footer{
+	padding:5px;
+	border : 1px solid grey;
+	clear: both;
+}
+
+div.minor{
+	background-color: #bdbdbd;
+	margin:1%;
+	padding: 5px;
+}
+
+div.major{
+	width: 50%;
+}
+
+
+section{
+	display: flex;
+	margin:1%;
+}
+
+hr{
+	color:green;
+}
+
+span{
+	display: inline-block;
+	background-color: #616161;
+	padding:5px;
+	margin:3px;
+	color: white;
+
+}
