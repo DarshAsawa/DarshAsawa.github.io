@@ -1,7 +1,7 @@
 body{
 	background-color: lightgrey;
 }
-h1{
+header h1{
 	display: inline-block;
 	margin: 1%;
 	clear:both;
@@ -36,10 +36,13 @@ div.minor{
 	padding: 5px;
 }
 
+div.minor h4{
+	height: 20px;
+}
+
 div.major{
 	width: 50%;
 }
-
 
 section{
 	display: flex;
@@ -47,14 +50,14 @@ section{
 }
 
 hr{
-	color:green;
+	color:darkgreen;
 }
 
-span{
+div.major span{
 	display: inline-block;
 	background-color: #616161;
-	padding:5px;
-	margin:3px;
+	padding:1%;
+	margin:1%;
 	color: white;
 
 }
