@@ -2,29 +2,48 @@ body{
 	background-color: lightgrey;
 	margin: 1%;
 }
+header{
+	background-color: darkgrey;
+	border: 1px solid grey;
+	display : block;
+	height:160px;
+	border-radius: 5px;
+	margin: 0 1%;
+}
+
 header h1{
 	display: inline-block;
-	margin: 1%;
+	margin-top: 1%;
+	margin-bottom: -1px;
+	margin-left: 20%;
 	clear:both;
-	background-color:aliceblue;
+	font-style: oblique;
+	font-weight: 100;
+	width: 30%;
+	border: solid 1px white;
+	border-radius: 10px;
+	color: white;
+	text-align: center;
+	background-color:rgb(10, 10, 75);
 }
+
 figure{
 	display: inline-block;
 	float: right;
 
 }
-#intro{
+
+header p{
 	color: aliceblue;
-	margin-left:1%;
-	margin-bottom: 1%;
-	padding: 1px;
+	padding-left: 2%;
+	padding-top: 1%;
+	font-size: large;
+	background-color: cornflowerblue;
+	height: 40%;
+	font-style: oblique;
+	
 }
-header{
-	background-color: darkgrey;
-	border: 1px solid grey;
-	display : block;
-	height:150px;
-}
+
 footer{
 	padding:5px;
 	border : 1px solid grey;
@@ -38,16 +57,18 @@ div.minor{
 	border-radius: 10px;
 }
 
-div.minor h4{
-	height: 20px;
+div.minor h2{
+	padding-left: 10px;
+	font-weight: bold;
 }
 
 div.major{
 	width: 50%;
+	margin: 0 1%;
 }
 
 div.minor{
-	margin-bottom:10px;
+	margin-bottom:5%;
 }
 
 section{
